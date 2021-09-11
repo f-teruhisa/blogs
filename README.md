@@ -1,24 +1,25 @@
-# README
+# 教材
+- 以下の”Rails をはじめよう”を実行したリポジトリです
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+URL: [https://railsguides.jp/getting_started.html](https://railsguides.jp/getting_started.html)
 
-Things you may want to cover:
+# バージョン
+- 以下のバージョンで動作を行っています
 
-* Ruby version
+```
+$ sqlite3 --version
+3.32.3
+$ ruby -v
+ruby 2.7.1
+$ rails --version
+Rails 6.0.3.4
+```
 
-* System dependencies
+# 注意
+## アプリケーションのビルド時
+- `rails new blog`をする際は以下のコマンドを実行します
 
-* Configuration
+```
+rails new blog --skip-javascript --skip-yarn
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
