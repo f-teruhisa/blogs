@@ -23,3 +23,5 @@ Rails 6.0.3.4
 rails new blog --skip-javascript --skip-yarn
 ```
 
+## 削除(destroy)アクションは実行できない
+- 上記で`--skip-javascript --skip-yarn`をしているため、`rails-ujs`を用いるdestroyメソッドの実行はできません
